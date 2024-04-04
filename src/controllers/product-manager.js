@@ -102,7 +102,7 @@ class ProductManager {
             const index = arrayProducts.findIndex(item => item.id === id);
 
             if (index !== -1) {
-                arrayProductos[index] = { ...arrayProducts[index], ...productoActualizado };
+                arrayProducts[index] = { ...arrayProducts[index], ...productoActualizado };
                 await this.guardarArchivo(arrayProducts);
                 console.log("Producto actualizado");
             } else {
