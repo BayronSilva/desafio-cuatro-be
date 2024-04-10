@@ -5,7 +5,6 @@ class CartManager {
         this.carts = [];
         this.path = fileProducts;
         this.ultId = 0;
-
         //Cargar carritos almacenados en el archivo
         this.cargarCarritos();
     }

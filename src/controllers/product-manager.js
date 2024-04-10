@@ -1,6 +1,5 @@
 const fs = require("fs").promises;
 
-
 class ProductManager {
     static ultId = 0
     constructor(fileProducts) {

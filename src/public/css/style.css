@@ -1,4 +1,20 @@
 h1 {
-    color: green;
+    color: red;
     text-align: center;
+}
+
+h2 {
+    color: green;
+    font-size: 20px;
+}
+
+.card {
+    border: 1px solid green;
+    padding-left: 5px;
+    border-bottom: 5px;
+}
+
+#contenedorProductos {
+    border: 1px solid green;
+    padding: 5px;
 }

@@ -17,10 +17,6 @@ app.engine("handlebars", exphbs.engine());
 app.set("view engine", "handlebars");
 app.set("views", "./src/views");
 
-// app.get("/", (req, res) => {
-//     res.render("index");
-// })
-
 //Rutas
 app.use("/api", productsRouter);
 app.use("/api", cartsRouter);
